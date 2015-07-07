@@ -1,0 +1,237 @@
+@import 'values';
+
+body{
+	height:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: $font;
+	font-size: $fsize;
+	background-color:$bg;
+}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:active{text-decoration:none;}
+
+#topbar{
+	position:fixed;
+	z-index:999;
+	background-color:$bg;
+	border-bottom:1px solid $pink;
+	padding-top:15px;
+	padding-left:0;
+
+	@media screen and (max-width: 992px) {
+	    .slogan{
+	    	text-align:right;
+	    }
+	}
+}
+
+#behind{
+	position:fixed;
+	top:25px;
+	width:100%;
+	padding-left:0;
+	left:0;
+
+	.nav{
+		position:fixed;
+		margin-top:50px;
+
+			ul {
+			list-style: none;
+			margin:0;
+			padding-left:15px;
+			}
+
+			li{
+				display:block;
+
+			}
+
+			a{
+				text-indent:0;
+				text-decoration:none;
+			}
+
+			a:hover{
+				text-decoration:underline;
+			}
+	}
+
+	.bgimg{
+		top:20%;
+		position: fixed;
+	}
+
+}
+#ontop{
+	
+	#over{
+		padding-top:75px !important;
+		h1{
+			border:1px solid $pink;
+			padding:10px 15px;
+			margin:0 40px 0 0;
+			background-color:$bg;
+			color:#000000;
+			font-size:$fsize;
+		}
+	}
+	#schrijven{
+		padding-top:75px;
+		h1{
+			border:1px solid $red;
+			padding:10px 15px;
+			margin:0 40px 0 0;
+			background-color:$bg;
+			color:$red;
+			font-size:$fsize;
+		}
+	}
+	#koffie{
+		padding-top:75px;
+		h1{
+			border:1px solid $blue;
+			padding:10px;
+			margin:0 40px 0 0;
+			background-color:$bg;
+			color:$blue;
+			font-size:$fsize;
+		}
+	}
+	#contact{
+		padding-top:75px;
+		h1{
+			border:1px solid $pink;
+			padding:10px;
+			margin:0 40px 0 0;
+			background-color:$bg;
+			color:#000000;
+			font-size:$fsize;
+		}
+	}
+	#personalia{
+		padding-top:75px;
+		h1{
+			border:1px solid $pink;
+			padding:10px;
+			margin:0 40px 0 0;
+			background-color:$bg;
+			color:#000000;
+			font-size:$fsize;
+		}
+	}
+	#about{
+		padding-bottom:50px;
+		padding-top:25px;
+		margin-right:25px;
+		margin-bottom:150px;
+		border:1px solid $pink;
+		border-top:0;
+
+	}
+
+	#writing{
+		background-color:$red;
+		/*
+		mix-blend-mode: multiply;
+		*/
+		margin-right:25px;
+		margin-bottom:150px;
+		padding:5px 15px 25px 5px;
+		color:$bg;
+
+		.btn{
+			color:$red;
+		}
+	}
+	#coffee{
+		color:#ffffff;
+		background-color:$blue;
+		/*
+		mix-blend-mode: multiply;
+		*/
+		margin-right:25px;
+		margin-bottom:150px;
+		padding:5px 15px 25px 10px;
+		color:$bg;
+
+		.btn{
+			color: $blue;
+		}
+	}
+	#info{
+		padding-bottom:50px;
+		padding-top:5px;
+		margin-right:25px;
+		margin-bottom:100px;
+		border:1px solid $pink;
+		border-top:0;
+	}
+}
+#ontop{
+	@media screen and (max-width: 768px) {
+     #about, #writing, #coffee, #info{
+     	margin-right:0 !important;
+     }
+    }
+    @media screen and (max-width: 768px) {
+     h1{
+     	margin-right:15px !important;
+     }
+    }
+    @media screen and (max-width: 768px) {
+     .portret{
+     	margin-left:0;
+     }
+    }
+}
+.container-fluid{
+	margin-right:0;
+	padding-right:0;
+}
+.title_writing{
+  color: $red;
+}
+.title_coffee{
+  color: $blue;
+}
+.theme{
+	margin-top: 50px;
+}
+h1{
+	font-size: $fsize*1.25;
+	display:block;
+	padding:0 0 25px 0;
+}
+h2{
+	clear:both;
+	font-size: $fsize;
+	display:inline-block;
+	padding-bottom:5px;
+	border-bottom: 1px solid $pink;
+	margin-bottom:10px;
+	margin-top:20px;
+
+}
+h3{
+	font-size:$fsize*0.75;
+	padding:0 10px;
+	margin-top:-5px;
+}
+.btn{
+	border-radius:0;
+	border:0;
+	background:white;
+	margin-top:20px;
+	color:$blue;
+}
+
+.portret{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}

@@ -1,0 +1,173 @@
+body{
+	margin:50px;
+	height:2000px;
+}
+.colorexeperiment{
+}
+.green{
+	width:400px;
+	height:200px;
+	position:absolute;
+	background-color: #00cc00;
+	opacity: 0.6;
+}
+.red{
+	width:200px;
+	height:400px;
+	position:absolute;
+	background-color: #FF0000;
+	opacity: 0.6;
+}
+.yellow{
+	width:300px;
+	height:300px;
+	position:absolute;
+	background-color: yellow;
+	opacity: 0.5;
+}
+.blue{
+	width:200px;
+	height:200px;
+	position:fixed;
+	background-color: blue;
+	opacity: 0.7;
+	border-radius: 200px;
+}
+
+
+.green2{
+	width:400px;
+	height:200px;
+	margin-left:500px;
+	position:absolute;
+	opacity: 0.6;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #00FF00),
+	color-stop(1, #009600)
+	);
+	background-image: -o-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -moz-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -webkit-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -ms-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: linear-gradient(to bottom, #00FF00 0%, #009600 100%);
+}
+.red2{
+	width:200px;
+	height:400px;
+	margin-left:500px;
+	position:absolute;
+	opacity: 0.6;
+	background-image: -webkit-gradient(
+	linear,
+	right top,
+	left bottom,
+	color-stop(0, #FF0000),
+	color-stop(1, #960000)
+	);
+	background-image: -o-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -moz-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -webkit-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -ms-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: linear-gradient(to left bottom, #FF0000 0%, #960000 100%);
+}
+.yellow2{
+	width:300px;
+	height:300px;
+	margin-left:500px;
+	position:absolute;
+	background-color: yellow;
+	opacity: 0.5;
+}
+.blue2{
+	width:200px;
+	height:200px;
+	margin-left:500px;
+	position:fixed;
+	opacity: 0.7;
+	border-radius: 200px;
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0, #0000FF),
+	color-stop(1, #000096)
+	);
+	background-image: -o-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -moz-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -webkit-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -ms-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: linear-gradient(to right, #0000FF 0%, #000096 100%);
+}
+
+.green3{
+	width:200px;
+	height:200px;
+	border-radius: 200px;
+	margin-left:1000px;
+	position:absolute;
+	opacity: 0.6;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #00FF00),
+	color-stop(1, #009600)
+	);
+	background-image: -o-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -moz-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -webkit-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: -ms-linear-gradient(bottom, #00FF00 0%, #009600 100%);
+	background-image: linear-gradient(to bottom, #00FF00 0%, #009600 100%);
+}
+.red3{
+	width:200px;
+	height:200px;
+	border-radius: 200px;
+	margin-left:1000px;
+	position:absolute;
+	opacity: 0.6;
+	background-image: -webkit-gradient(
+	linear,
+	right top,
+	left bottom,
+	color-stop(0, #FF0000),
+	color-stop(1, #960000)
+	);
+	background-image: -o-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -moz-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -webkit-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: -ms-linear-gradient(left bottom, #FF0000 0%, #960000 100%);
+	background-image: linear-gradient(to left bottom, #FF0000 0%, #960000 100%);
+}
+.yellow3{
+	width:200px;
+	height:200px;
+	border-radius: 200px;
+	margin-left:1000px;
+	position:absolute;
+	background-color: yellow;
+	opacity: 0.5;
+}
+.blue3{
+	width:200px;
+	height:200px;
+	margin-left:1000px;
+	position:fixed;
+	opacity: 0.7;
+	border-radius: 200px;
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0, #0000FF),
+	color-stop(1, #000096)
+	);
+	background-image: -o-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -moz-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -webkit-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: -ms-linear-gradient(right, #0000FF 0%, #000096 100%);
+	background-image: linear-gradient(to right, #0000FF 0%, #000096 100%);
+}
